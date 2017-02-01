@@ -25,12 +25,16 @@ SECRET_KEY = 'apwnl#j4srppu69*jt83emmxpf84bu*7=4+&ly1r05^7pe)m3w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'boocertified.pythonanywhere.com',
+    '.pythonanywhere.com',
+    ]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'rango',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
